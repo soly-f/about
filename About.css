@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DynaPuff:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 100vh;
+    background:#570670;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: #895ab4;
+    /* height: 400px; */
+    width: 100%;
+}
+.container .About-1 {
+    padding: 10px 20px;
+    margin-left:8%;
+    float: left;
+    width: 50%;
+    margin: 30px 20px;
+}
+.container .About-2 {
+    margin: 0 5%;
+    float: right;
+    width: 40%;
+    margin: 30px 20px;
+}
+.About-1 .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 10px 0;
+    font-family:DynaPuff ;
+    text-decoration: underline;
+   
+}
+.btn  {
+  
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+ 
+    
+    padding: .20px 1px;
+    transition: 0.5s;
+    
+    
+   
+}
+.btn a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.About-1 h1 {
+    color: #13366b;
+    margin: 5px 0;
+}
+.About-1 h3 {
+    color: #fff;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+.About-1 h5 {
+    color: #fff;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+.About-1 h5 Spam{
+    color: #570670;
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+.About-2 img {
+    width: 300px;
+}
+
+@media (max-width:700px){
+    .container {
+        display: block;
+    }
+    .container .About-1 {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .container .About-2{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .container .About-2 img {
+        width: 100%;
+        margin-left: -20px;
+    }
+}
